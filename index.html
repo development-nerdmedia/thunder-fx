@@ -12,18 +12,94 @@
       <nav class="navigation">
         <div class="container flex">
           <img src="img/logo.svg" alt="" />
-          <button>Contáctanos</button>
+          <button class="contacto-page">Contáctanos</button>
         </div>
       </nav>
     </header>
     <main>
+      <section class="contactopage">
+        <div class="container">
+          <div class="cerrar">
+            <button class="contacto-page">
+              <img src="img/hexagono-cruz.svg" alt="" />
+            </button>
+          </div>
+          <div class="content">
+            <div class="content-formulario">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+              <form
+                id="fs-frm2"
+                name="complaint-form"
+                accept-charset="utf-8"
+                action="thanks.html"
+                method=""
+                class="formulario containerform"
+              >
+                <fieldset id="fs-frm-inputs2">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      id="full-name"
+                      placeholder=""
+                      required=""
+                      class="form-input"
+                    />
+                    <label for="form-nombre" class="form-label"
+                      >Nombres y Apellidos:</label
+                    >
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder=""
+                      required=""
+                      class="form-input"
+                    />
+                    <label for="form-nombre" class="form-label">Correo:</label>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="asunto"
+                      id="asunto"
+                      placeholder=""
+                      required=""
+                      class="form-input"
+                    />
+                    <label for="form-nombre" class="form-label">Asunto:</label>
+                  </div>
+                  <div class="form-group textarea">
+                    <textarea
+                      rows="6"
+                      name="message"
+                      id="message"
+                      placeholder=""
+                      required=""
+                      class="form-input textarea"
+                    ></textarea>
+                    <label for="form-nombre" class="form-label">Mensaje:</label>
+                  </div>
+                  <div class="enviar">
+                    <input type="submit" value="Enviar" />
+                    <img src="../icons/flecha1.svg" alt="" />
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="home">
+        <img class="mallas" src="img/Mallas.png" alt="" />
         <div class="container">
           <div class="content">
             <div class="part1">
               <h1>Creando nuevas maneras de invertir</h1>
               <p>¿Quieres saber más?</p>
-              <button>Contáctanos</button>
+              <button class="contacto-page">Contáctanos</button>
             </div>
             <div class="part2">
               <img src="img/Small Box.png" alt="" />
@@ -52,6 +128,7 @@
       </section>
     </main>
     <footer>
+      <img class="mallas" src="img/Mallas.png" alt="" />
       <div class="container">
         <div class="content">
           <div class="item">
@@ -73,5 +150,10 @@
         </div>
       </div>
     </footer>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
